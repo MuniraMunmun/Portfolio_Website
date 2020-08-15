@@ -1,0 +1,139 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-image: url(jerry.JPG);
+    height: 135vh;
+    background-size: cover;
+   background-position: center;
+}
+.mainnav
+{
+  float: left;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: maroon;
+    list-style: none;
+    margin-top: 50px;
+    padding: 19px;
+	font-size:45px;
+}
+.mainnav li
+{
+    display: inline-block;
+}
+.mainnav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 27px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+.mainnav li.active a
+{
+    border: 0.15px solid white;
+}
+.mainnav li a:hover
+{
+    
+    background-color:#111111;
+}
+.logo img {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+.logo img
+{
+    width: 145px;
+    height: auto;
+    float: right;
+    margin-right: 2px;
+    margin-top: 47px;
+}
+
+body
+{
+    font-family: monospace;
+}
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+	overflow:hidden;
+}
+.hero {
+	margin-left: 0;
+	margin-top: 0;
+	width: 1200px;
+	overflow: hidden;
+	padding-top: 100px;
+}
+
+.hero h1
+{
+	
+    color: white;
+    font-size: 200%;
+    text-align: center;
+	margin-top: 127px;
+	margin-left: 58px;
+    
+    
+}
+h
+{
+    color: white;
+    font-size: 30px;
+    text-align:center;
+    margin-top: 200px; 
+    margin-left: 767px;
+}
+.button {
+	margin-top: 60px;
+	margin-left: 480px;
+	overflow: hidden;
+}
+.btn {
+	border: 1px solid white;
+	padding: 15px 30px;
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 13px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+.btn-one
+{
+    background-color: darkcyan;
+    font-family: "Roboto",sans-serif;
+}
+.btn-two:hover
+{
+    background-color: darkcyan;
+    transition: all 0.5s ease-in;
+
+}
+
+.mainnav a:hover
+{
+    background-color: aliceblue;
+}
+.ftr
+{
+    margin-bottom: 150px;
+    text-align: right;
+    margin-left: 900px;
+}
+.here-about {
+	color: white;
+	padding: 79px 100px;
+	
+}
+
